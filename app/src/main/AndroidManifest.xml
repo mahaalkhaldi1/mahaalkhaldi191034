@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.usersapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        >
+        <activity android:name=".Activities.WeatherActivities.WeatherHumidityActivity"
+            android:label="Humidity"
+            ></activity>
+        <activity android:name=".Activities.WeatherActivities.WeatherTempActivity"
+            android:label="Temperature"
+            />
+        <activity android:name=".Activities.WeatherActivities.WeatherCloudsActivity"
+            android:label="Clouds"
+            />
+        <activity android:name=".Activities.WeatherActivities.WeatherSelectCityActivity"
+            android:label="Select city"
+            />
+        <activity android:name=".Activities.WeatherActivities.WeatherMainActivity"
+            android:label="Weather"
+            />
+        <activity android:name=".Activities.SQLiteActivities.SQLiteUpdateUserActivity"
+            android:label="Update user"
+            />
+        <activity android:name=".Activities.SQLiteActivities.SQLiteAddUserByFirebaseActivity"
+            android:label="Add user from Firebase"
+            />
+        <activity android:name=".Activities.SQLiteActivities.SQLiteAddUserActivity"
+            android:label="Add user"
+            />
+        <activity android:name=".Activities.SQLiteActivities.SQLiteMainActivity"
+            android:label="SQLite"
+            />
+        <activity android:name=".Activities.FirebaseActivities.FirebaseViewUserActivity"
+            android:label="User details"
+            />
+        <activity android:name=".Activities.FirebaseActivities.FirebaseAddUserActivity"
+            android:label="Humidity"
+            />
+        <activity android:name=".Activities.FirebaseActivities.FirebaseMainActivity"
+            android:label="Firebase"
+            />
+        <activity android:name=".Activities.FirebaseActivities.FirebaseUpdateUserActivity"
+            android:label="Update user"
+            />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

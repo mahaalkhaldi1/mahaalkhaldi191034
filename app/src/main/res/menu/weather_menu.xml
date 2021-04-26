@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clouds"
+        android:title="View city clouds"
+        />
+    <item
+        android:id="@+id/temp"
+        android:title="View city temperature"
+        />
+    <item
+        android:id="@+id/humidity"
+        android:title="View city humidity"
+        />
+</menu>

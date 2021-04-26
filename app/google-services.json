@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320404927162",
+    "project_id": "mahaalkhaldi191034",
+    "storage_bucket": "mahaalkhaldi191034.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320404927162:android:8bcf802ba7cccb16dd0883",
+        "android_client_info": {
+          "package_name": "com.app.usersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320404927162-s9m2pe4foqm6ikbc270qajd6minr22jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-DDjPs0F7aOoUlkJ23uLtkAfMfsmaAlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320404927162-s9m2pe4foqm6ikbc270qajd6minr22jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
